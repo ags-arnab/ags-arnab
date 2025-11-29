@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Arnab%20Ghosh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Mobile%20%26%20Full-Stack%20Developer%20%7C%20BRAC%20University&descAlignY=52&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Arnab%20Ghosh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Mobile%20and%20Full-Stack%20Developer%20|%20BRAC%20University&descAlignY=52&descSize=18"/>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=%F0%9F%91%8B+Welcome+to+my+digital+playground!;%F0%9F%92%A1+I'm+too+lazy+for+easy+tasks...;%F0%9F%9A%80+Bring+me+something+interesting!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=Welcome+to+my+digital+playground!;Too+lazy+for+easy+tasks...;Bring+me+something+interesting!" alt="Typing SVG" />
   </a>
 </p>
 
@@ -24,9 +24,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍%20Dhaka-Bangladesh-success?style=flat-square&labelColor=2d333b" alt="Location"/>
-  <img src="https://img.shields.io/badge/🎓%20BRAC-University-blue?style=flat-square&labelColor=2d333b" alt="University"/>
-  <img src="https://img.shields.io/badge/🌴%20Status-On%20Vacation-orange?style=flat-square&labelColor=2d333b" alt="Status"/>
+  <img src="https://img.shields.io/badge/📍_Dhaka-Bangladesh-success?style=flat-square&labelColor=2d333b" alt="Location"/>
+  <img src="https://img.shields.io/badge/🎓_BRAC-University-blue?style=flat-square&labelColor=2d333b" alt="University"/>
+  <img src="https://img.shields.io/badge/🌴_Status-On_Vacation-orange?style=flat-square&labelColor=2d333b" alt="Status"/>
 </p>
 
 <!-- Animated Line -->
@@ -36,35 +36,45 @@
 
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
 
-```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+```dart
+// Dart 3.x with Records, Patterns & Sealed Classes
 
-class ArnabGhosh:
-    """A developer who's too lazy for easy tasks 😎"""
+sealed class Developer {
+  String get motto;
+}
 
-    def __init__(self):
-        self.name = "Arnab Ghosh"
-        self.username = "ags-arnab"
-        self.location = "Dhaka, Bangladesh 🇧🇩"
-        self.education = "BRAC University"
-        self.role = "Full-Stack & Mobile Developer"
+final class ArnabGhosh extends Developer {
+  // Record type for structured data
+  static const info = (
+    name: 'Arnab Ghosh',
+    username: 'ags-arnab',
+    location: 'Dhaka, Bangladesh 🇧🇩',
+    education: 'BRAC University',
+    role: 'Full-Stack & Mobile Developer',
+  );
 
-    @property
-    def skills(self) -> dict:
-        return {
-            "languages": ["Python", "Dart", "Swift", "TypeScript"],
-            "mobile": ["Flutter", "Android", "iOS"],
-            "backend": ["Firebase", "Supabase", "Appwrite"],
-            "databases": ["PostgreSQL", "MySQL", "MongoDB"],
-            "devops": ["Docker", "DigitalOcean", "GitHub Actions"]
-        }
+  // Pattern matching with records
+  ({List<String> languages, List<String> mobile, List<String> backend}) get skills => (
+    languages: ['Dart', 'Python', 'Swift', 'TypeScript'],
+    mobile: ['Flutter', 'Android', 'iOS'],
+    backend: ['Firebase', 'Supabase', 'Appwrite'],
+  );
 
-    def __str__(self) -> str:
-        return "Building cool stuff, one commit at a time! 🚀"
+  @override
+  String get motto => 'Too lazy for easy tasks 😎';
 
-me = ArnabGhosh()
-print(me)  # Building cool stuff, one commit at a time! 🚀
+  // Destructuring with patterns
+  void introduce() {
+    final (:name, :role, :location) = info;
+    print('Hey! I am $name, a $role from $location');
+  }
+}
+
+void main() {
+  final me = ArnabGhosh();
+  me.introduce();
+  // Output: Hey! I am Arnab Ghosh, a Full-Stack & Mobile Developer from Dhaka, Bangladesh 🇧🇩
+}
 ```
 
 <br clear="both"/>
@@ -106,21 +116,19 @@ print(me)  # Building cool stuff, one commit at a time! 🚀
 <br/>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,python,swift,androidstudio&theme=dark&perline=5" alt="Languages"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,python,swift,androidstudio&theme=dark&perline=5" alt="Languages"/>
 </p>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=firebase,supabase,appwrite,postgres,mongodb&theme=dark&perline=5" alt="Backend"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=firebase,supabase,appwrite,postgres,mongodb&theme=dark&perline=5" alt="Backend"/>
 </p>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,digitalocean,github,git,vscode&theme=dark&perline=5" alt="Tools"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=docker,github,git,vscode&theme=dark&perline=4" alt="Tools"/>
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" width="48" height="48" alt="DigitalOcean"/>
 </p>
 
 <!-- Animated Skill Bars -->
@@ -171,9 +179,9 @@ PostgreSQL       ████████████████████░
 
 <!-- Achievement Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/🎯%20YOLO-Merged%20PR%20without%20review-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="YOLO"/>
-  <img src="https://img.shields.io/badge/🦈%20Pull%20Shark-PRs%20Merged-4ECDC4?style=for-the-badge&labelColor=1a1b27" alt="Pull Shark"/>
-  <img src="https://img.shields.io/badge/💝%20Sponsor-Supporting%20OSS-FF69B4?style=for-the-badge&labelColor=1a1b27" alt="Sponsor"/>
+  <img src="https://img.shields.io/badge/🎯_YOLO-Merged_PR_without_review-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="YOLO"/>
+  <img src="https://img.shields.io/badge/🦈_Pull_Shark-PRs_Merged-4ECDC4?style=for-the-badge&labelColor=1a1b27" alt="Pull Shark"/>
+  <img src="https://img.shields.io/badge/💝_Sponsor-Supporting_OSS-FF69B4?style=for-the-badge&labelColor=1a1b27" alt="Sponsor"/>
 </p>
 
 <!-- Animated Line -->
@@ -183,19 +191,19 @@ PostgreSQL       ████████████████████░
 
 <p align="center">
   <a href="https://github.com/ags-arnab/Course-Data-Fetcher">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Course-Data-Fetcher&theme=algolia&hide_border=true&bg_color=0D1117" alt="Course-Data-Fetcher"/>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Course-Data-Fetcher&theme=react&bg_color=0D1117&hide_border=true&icon_color=6C63FF&show_icons=true" alt="Course-Data-Fetcher"/>
   </a>
   <a href="https://github.com/ags-arnab/Web-Crawler-and-File-Downloader">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Web-Crawler-and-File-Downloader&theme=algolia&hide_border=true&bg_color=0D1117" alt="Web-Crawler"/>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Web-Crawler-and-File-Downloader&theme=react&bg_color=0D1117&hide_border=true&icon_color=6C63FF&show_icons=true" alt="Web-Crawler"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ags-arnab/UniGo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=UniGo&theme=algolia&hide_border=true&bg_color=0D1117" alt="UniGo"/>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=UniGo&theme=react&bg_color=0D1117&hide_border=true&icon_color=6C63FF&show_icons=true" alt="UniGo"/>
   </a>
   <a href="https://github.com/ags-arnab/Online-Payments-Fraud-Detection-CSE422">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Online-Payments-Fraud-Detection-CSE422&theme=algolia&hide_border=true&bg_color=0D1117" alt="Fraud Detection"/>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ags-arnab&repo=Online-Payments-Fraud-Detection-CSE422&theme=react&bg_color=0D1117&hide_border=true&icon_color=6C63FF&show_icons=true" alt="Fraud Detection"/>
   </a>
 </p>
 
@@ -206,7 +214,7 @@ PostgreSQL       ████████████████████░
 
 <p align="center">
   <a href="https://github.com/ags-arnab">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ags-arnab&custom_title=Arnab's%20Contribution%20Graph&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF&area_color=6C63FF&area=true&hide_border=true" alt="Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ags-arnab&custom_title=Arnab%27s%20Contribution%20Graph&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF&area_color=6C63FF&area=true&hide_border=true" alt="Activity Graph"/>
   </a>
 </p>
 
@@ -224,36 +232,21 @@ PostgreSQL       ████████████████████░
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="line"/>
 
-## <img src="https://media.giphy.com/media/gM5qFksULw54NMWyry/giphy.gif" width="28"> Coding Metrics
+## <img src="https://media.giphy.com/media/gM5qFksULw54NMWyry/giphy.gif" width="28"> Coding Activity
 
-<!--START_SECTION:waka-->
-```text
-🌞 Morning    95 commits     ████░░░░░░░░░░░░░░░░░░░░░   18.27%
-🌆 Daytime    180 commits    ████████░░░░░░░░░░░░░░░░░   34.62%
-🌃 Evening    200 commits    █████████░░░░░░░░░░░░░░░░   38.46%
-🌙 Night      45 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   08.65%
-```
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ags-arnab&theme=tokyonight" alt="Profile Details"/>
+</p>
 
-```text
-💬 Languages:
-Dart         █████████████░░░░░░░░░░░░   52.30%
-Python       ███████░░░░░░░░░░░░░░░░░░   28.50%
-TypeScript   ████░░░░░░░░░░░░░░░░░░░░░   12.10%
-Swift        ██░░░░░░░░░░░░░░░░░░░░░░░   07.10%
-```
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ags-arnab&theme=tokyonight" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ags-arnab&theme=tokyonight" alt="Most Commit Language"/>
+</p>
 
-```text
-📅 I'm Most Productive on Saturday
-
-Monday       80 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.50%
-Tuesday      65 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.16%
-Wednesday    90 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.06%
-Thursday     75 commits     ███░░░░░░░░░░░░░░░░░░░░░░   11.72%
-Friday       95 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.84%
-Saturday     130 commits    █████░░░░░░░░░░░░░░░░░░░░   20.31%
-Sunday       105 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.41%
-```
-<!--END_SECTION:waka-->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ags-arnab&theme=tokyonight" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ags-arnab&theme=tokyonight&utcOffset=6" alt="Productive Time"/>
+</p>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="line"/>
@@ -264,7 +257,7 @@ Sunday       105 commits    ████░░░░░░░░░░░░░�
 <summary>😂 Random Dev Joke</summary>
 <br>
 <p align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=algolia&hideBorder&qColor=%236C63FF&aColor=%23FFFFFF" alt="Jokes Card"/>
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card"/>
 </p>
 </details>
 
@@ -272,7 +265,7 @@ Sunday       105 commits    ████░░░░░░░░░░░░░�
 <summary>💭 Random Dev Quote</summary>
 <br>
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia" alt="Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
 </p>
 </details>
 
@@ -281,7 +274,7 @@ Sunday       105 commits    ████░░░░░░░░░░░░░�
 <br>
 <p align="center">
   <a href="https://github.com/ags-arnab">
-    <img src="https://img.shields.io/badge/🎮%20Let's%20Play-Tic%20Tac%20Toe-6C63FF?style=for-the-badge&labelColor=1a1b27" alt="Game"/>
+    <img src="https://img.shields.io/badge/🎮_Lets_Play-Tic_Tac_Toe-6C63FF?style=for-the-badge&labelColor=1a1b27" alt="Game"/>
   </a>
 </p>
 <p align="center">
@@ -296,14 +289,6 @@ Sunday       105 commits    ████░░░░░░░░░░░░░�
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=kio8shoomryjv8dd149k2ebht&redirect=true">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kio8shoomryjv8dd149k2ebht&cover_image=true&theme=novatorem&bar_color=6C63FF&bar_color_cover=true" alt="Spotify"/>
   </a>
-</p>
-</details>
-
-<details>
-<summary>📺 Latest YouTube Videos</summary>
-<br>
-<p align="center">
-  <i>Coming soon... 🎬</i>
 </p>
 </details>
 
@@ -334,26 +319,11 @@ Sunday       105 commits    ████░░░░░░░░░░░░░�
 <p align="center">
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"/>
   <br>
-  <em><b>I love connecting with different people!</b> If you want to say <b>hi, I'll be happy to meet you!</b> 😊</em>
+  <em><b>I love connecting with different people!</b> If you want to say <b>hi, I will be happy to meet you!</b></em>
 </p>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="line"/>
-
-<h2 align="center">⚡ Quick Stats</h2>
-
-<p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=ags_arnab&theme=algolia&hide_border=true&bg_color=0D1117&layout=compact" alt="Wakatime"/>
-<img width="49%" src="https://github-contributor-stats.vercel.app/api?username=ags-arnab&limit=5&theme=algolia&hide_border=true&bg_color=0D1117&combine_all_yearly_contributions=true" alt="Contributor Stats"/>
-</p>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="line"/>
-
-<!-- Metrics -->
-<p align="center">
-  <img src="https://metrics.lecoq.io/ags-arnab?template=classic&isocalendar=1&languages=1&achievements=1&notable=1&isocalendar.duration=half-year&languages.limit=8&languages.threshold=0%25&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&config.timezone=Asia%2FDhaka" alt="Metrics"/>
-</p>
 
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling"/>
