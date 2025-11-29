@@ -84,50 +84,58 @@ void main() {
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> Tech Arsenal
 
+<!-- Primary Stack - Highlighted -->
+<h3 align="center">🚀 Primary Stack</h3>
+
+<p align="center">
+  <a href="https://flutter.dev">
+    <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white&labelColor=02569B" height="35" alt="Flutter"/>
+  </a>
+  <a href="https://dart.dev">
+    <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white&labelColor=0175C2" height="35" alt="Dart"/>
+  </a>
+  <a href="https://supabase.com">
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white&labelColor=3ECF8E" height="35" alt="Supabase"/>
+  </a>
+</p>
+
 <table align="center">
 <tr>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-<br><b>Python</b>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="75" height="75" />
+<br><b style="color:#02569B">Flutter</b>
+<br><sub>Expert</sub>
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/swift-icon.svg" alt="Swift" width="65" height="65" />
-<br><b>Swift</b>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="75" height="75" />
+<br><b style="color:#0175C2">Dart</b>
+<br><sub>Expert</sub>
 </td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
-<br><b>TypeScript</b>
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-<br><b>Docker</b>
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-<br><b>MySQL</b>
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-<br><b>GitHub</b>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" width="75" height="75" />
+<br><b style="color:#3ECF8E">Supabase</b>
+<br><sub>Expert</sub>
 </td>
 </tr>
 </table>
 
 <br/>
 
+<!-- Other Technologies -->
+<h4 align="center">Languages & Mobile</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,python,swift,androidstudio&theme=dark&perline=5" alt="Languages"/>
+  <img src="https://skillicons.dev/icons?i=python,swift,ts,androidstudio&theme=dark&perline=4" alt="Languages"/>
 </p>
 
+<h4 align="center">Backend & Databases</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=firebase,supabase,appwrite,postgres,mongodb&theme=dark&perline=5" alt="Backend"/>
+  <img src="https://skillicons.dev/icons?i=firebase,appwrite,postgres,mongodb,mysql&theme=dark&perline=5" alt="Backend"/>
 </p>
 
+<h4 align="center">DevOps & Tools</h4>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,github,git,vscode&theme=dark&perline=4" alt="Tools"/>
-</p>
-
-<p align="center">
+  <br/><br/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" width="48" height="48" alt="DigitalOcean"/>
 </p>
 
