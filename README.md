@@ -290,15 +290,6 @@ PostgreSQL       ████████████████████░
 </p>
 </details>
 
-<details>
-<summary>🎵 Spotify Playing</summary>
-<br>
-<p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=kio8shoomryjv8dd149k2ebht&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kio8shoomryjv8dd149k2ebht&cover_image=true&theme=novatorem&bar_color=6C63FF&bar_color_cover=true" alt="Spotify"/>
-  </a>
-</p>
-</details>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="line"/>
