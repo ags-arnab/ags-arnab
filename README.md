@@ -14,7 +14,7 @@
 
 <br>
 
-> Full-stack and mobile developer based in **Dhaka, Bangladesh**. CS student at **BRAC University**. I build tools that solve real problems for students — most of my work is in **Flutter/Dart** and **TypeScript/React**, backed by **Supabase** and **Firebase**.
+> Full-stack and mobile developer based in **Dhaka, Bangladesh**. CSE student at **BRAC University**. I build tools that solve real problems for students — most of my work is in **Flutter/Dart** and **TypeScript/React**, backed by **Supabase** and **Firebase**.
 
 ---
 
