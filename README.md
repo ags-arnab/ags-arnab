@@ -22,15 +22,17 @@
 
 ```dart
 sealed class Developer {
-  (String name, String role) get info;
+  (String name, String role, String location) get info;
   List<String> get stack;
+  String get greeting;
 }
 
 final class ArnabGhosh extends Developer {
   @override
-  (String, String) get info => (
+  (String, String, String) get info => (
     'Arnab Ghosh',
-    'Full-Stack & Mobile Developer',
+    'Full-Stack + Mobile Developer',
+    'Dhaka, Bangladesh',
   );
 
   @override
@@ -39,11 +41,21 @@ final class ArnabGhosh extends Developer {
     'React', 'Python', 'Swift',
   ];
 
-  String greet() => switch (DateTime.now().hour) {
-    < 12  => 'Good morning!',
-    < 17  => 'Good afternoon!',
-    _     => 'Good evening!',
+  @override
+  String get greeting => switch (DateTime.now().hour) {
+    < 12  => 'Good morning',
+    < 17  => 'Good afternoon',
+    _     => 'Good evening',
   };
+}
+
+void main() {
+  final me = ArnabGhosh();
+  final (name, role, location) = me.info;
+
+  print('${me.greeting}! I\'m $name.');
+  print('$role from $location.');
+  print('Tech: ${me.stack.join(', ')}');
 }
 ```
 
