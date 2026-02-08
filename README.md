@@ -1,32 +1,20 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=180&amp;section=header&amp;text=Arnab%20Ghosh&amp;fontSize=42&amp;fontColor=fff&amp;animation=twinkling&amp;fontAlignY=32&amp;desc=Full-Stack%20%26%20Mobile%20Developer%20%7C%20BRAC%20University&amp;descAlignY=52&amp;descSize=18"/>
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400"/>
+  <br><br>
+  <a href="https://github.com/ags-arnab?tab=followers">
+    <img src="https://custom-icon-badges.demolab.com/github/followers/ags-arnab?color=236ad3&amp;labelColor=1155ba&amp;style=for-the-badge&amp;logo=person-add&amp;label=Followers&amp;logoColor=white" alt="followers"/>
+  </a>
+  <a href="https://github.com/ags-arnab?tab=repositories&amp;sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/ags-arnab?color=55960c&amp;style=for-the-badge&amp;labelColor=488207&amp;logo=star" alt="stars"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=ags-arnab&amp;style=for-the-badge&amp;color=blueviolet" alt="Profile Views"/>
+</div>
 
 <br>
 
-### About Me
-
-Full-stack and mobile developer based in **Dhaka, Bangladesh**.
-
-CS student at **BRAC University**. I build tools that solve real problems for students.
-
-Most of my work is in **Flutter/Dart** and **TypeScript/React**, backed by **Supabase** and **Firebase**.
-
-<br>
-
-[![Followers](https://custom-icon-badges.demolab.com/github/followers/ags-arnab?color=236ad3&amp;labelColor=1155ba&amp;style=for-the-badge&amp;logo=person-add&amp;label=Followers&amp;logoColor=white)](https://github.com/ags-arnab?tab=followers)
-[![Stars](https://custom-icon-badges.demolab.com/github/stars/ags-arnab?color=55960c&amp;style=for-the-badge&amp;labelColor=488207&amp;logo=star)](https://github.com/ags-arnab?tab=repositories&amp;sort=stargazers)
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350"/>
-
-</td>
-</tr>
-</table>
+> Full-stack and mobile developer based in **Dhaka, Bangladesh**. CS student at **BRAC University**. I build tools that solve real problems for students — most of my work is in **Flutter/Dart** and **TypeScript/React**, backed by **Supabase** and **Firebase**.
 
 ---
 
